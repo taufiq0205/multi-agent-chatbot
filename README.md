@@ -24,7 +24,7 @@ This project demonstrates a multi-agent chatbot using [LangGraph](https://github
 
 1. **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/taufiq0205/multi-agent-chatbot.git
     cd langgraph-tutorial
     ```
 
