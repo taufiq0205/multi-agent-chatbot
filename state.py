@@ -4,9 +4,9 @@ from pydantic import BaseModel, Field
 from typing_extensions import TypedDict
 
 class MessageClassifier(BaseModel):
-    message_type: Literal["emotional", "logical"] = Field(
+    message_type: Literal["emotional", "logical", "motivational", "humor", "greeting"] = Field(
         ...,
-        description="Classify if the message requires an emotional (therapist) or logical response.",
+        description="Classify if the message requires an emotional (therapist), logical, motivational, humor, or greeting response.",
     )
 
 class State(TypedDict):
